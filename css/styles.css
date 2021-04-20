@@ -85,12 +85,12 @@ header {
 
 .introduction p{
   text-align: justify;
-  font-size: 2vw;
+  font-size: 16px;
 }
 
 .introduction a{
   text-decoration: none;
-  font-size: 2vw;
+  font-size: 16px;
   color: white;
 }
 
