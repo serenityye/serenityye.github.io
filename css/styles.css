@@ -1,0 +1,369 @@
+body {
+  background-color: black;
+  line-height: 1.5;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top:55px;
+  background-color: #344e69;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: 5px;
+}
+
+.dropbtn {
+  background-color: #344e69;
+  color: white;
+  padding: 5px;
+  font-size: 2vw;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 6px 8px;
+  border-bottom: white solid 1px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  font-size: 2vw;
+  color:white;
+  text-align: center;
+
+}
+
+.dropdown-content a:hover {background-color:#2980B9;}
+
+.show {display:block;}
+
+
+header {
+  background-image: url(3306579329@chatroomwxid_0yv416otpb2p412071482654.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#square {
+  width: 40%;
+  height: auto;
+  background-color: rgba(255,255,255,0.3);
+  border: 3px white solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+#square img {
+  display: block;
+  width: 90%;
+  height: auto;
+  padding:5%;
+}
+
+
+.introduction {
+  margin:2% 5% 2% 5%;
+  padding:1%;
+  background-color: rgba(0,0,0,0.3);
+  color:white;
+}
+
+.introduction h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 5vw;
+}
+
+.introduction p{
+  text-align: justify;
+  font-size: 2vw;
+}
+
+.introduction a{
+  text-decoration: none;
+  font-size: 2vw;
+  color: white;
+}
+
+.introduction a :hover {
+  text-decoration: none;
+  color: #3498DB;
+}
+
+.why {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  padding:8px 8px;
+  border-top: 4px solid white;
+  margin-bottom: 3%;
+}
+
+
+
+.big-flex-box{
+    box-sizing: border-box;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+
+  .flex-item-top {
+    background-color: #344e69;
+    opacity: 0.8;
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-size: 18x;
+    border-radius: 10% 10% 0 0;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flex-item-bottom {
+    border: 2px solid #abc4ff;
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+    padding: 1% 3%;
+    flex: 50%;
+    text-align: justify;
+    font-size: 16px;
+    border-radius: 0 5% 5% 5%;
+    padding: 10px;
+    margin-bottom: 5%;
+  }
+
+  #language-button {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    opacity: 0.9;
+    display: inline;
+  }
+
+    #language-button:hover, #language-button:active {
+      color: #3498DB;
+      border:none;
+    }
+
+  footer{
+    color:white;
+    display: block;
+    border-top: white double 3px;
+    margin: 3%;
+    text-align: center;
+  }
+
+  .contact {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+
+  .contact-info{
+    font-size: 14px;
+    display: block;
+    padding: 10px;
+  }
+
+#Chinese, #English, #Norwegian, #German, #WEB, #CSS, #Javascript, #PHP, #SQL, #Python, {
+  display: block;
+}
+
+@media screen and (min-width:800px)
+ {
+   .dropdown-content {
+     display: none;
+     position: absolute;
+     top:60px;
+     background-color: #344e69;
+     margin-left: 5px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+   }
+
+   .dropbtn {
+     background-color: #344e69;
+     color: white;
+     padding: 5px;
+     font-size: 16px;
+     border: none;
+     border-radius: 10%;
+     cursor: pointer;
+   }
+
+   .dropbtn:hover, .dropbtn:focus {
+     background-color: #2980B9;
+   }
+
+
+   .dropdown-content a {
+     color: black;
+     padding: 6px 8px;
+     text-decoration: none;
+     border-bottom: white solid 1px;
+     font-size: 16px;
+     color:white;
+     text-align: center;
+
+   }
+
+   .dropdown-content a:hover {background-color:#2980B9;}
+
+   .show {display:block;}
+
+   header {
+     background-image: url(3306579329@chatroomwxid_0yv416otpb2p412071482654.jpeg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+   }
+
+   .intro-flex{
+     display: flex;
+     flex-direction: row-reverse;
+     flex-wrap: wrap;
+     align-items: center;
+   }
+
+   #square {
+     width: 25vw;
+     display: flex;
+     background-color: rgba(255,255,255,0.3);
+     border: 3px white solid;
+     margin-top: 10%;
+     margin-bottom: 10%;
+     margin-right: 10%;
+   }
+
+   #square img {
+     width: 90%;
+     height: 90%;
+     padding:5%;
+   }
+
+   .introduction {
+     display: flex;
+     flex-direction: column;
+     width: 45%;
+     padding:4%;
+     background-color: rgba(0,0,0,0.3);
+     color:white;
+   }
+
+   .introduction h1{
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 28px;
+   }
+
+   .introduction p{
+     text-align: justify;
+     font-size: 20px;
+   }
+
+   .introduction a{
+     text-decoration: none;
+     font-size: 20px;
+     color: white;
+   }
+
+   .introduction a :hover {
+     text-decoration: none;
+     color: #3498DB;
+   }
+
+   .why {
+     text-align: center;
+     font-size: 2vw;
+     color: white;
+     padding:8px 8px;
+     border-top: 4px solid white;
+     margin-top: 3%;
+     margin-bottom: 2%;
+   }
+
+   .big-flex-box{
+       box-sizing: border-box;
+       width: 65%;
+       margin-left: auto;
+       margin-right: auto;
+       display: grid;
+       grid-template-columns: auto auto;
+     }
+
+     .flex-container {
+       display: flex;
+       flex-wrap: wrap;
+     }
+
+
+     .flex-item-top {
+       background-color: #344e69;
+       opacity: 0.8;
+       color: white;
+       width: 50%;
+       text-align: center;
+       font-size: 2vw;
+       border-radius: 0;
+       margin-top: 1.7%;
+       margin-left: auto;
+       margin-right: auto;
+     }
+
+     .flex-item-bottom {
+       border: 2px solid #abc4ff;
+       background-color: white;
+       opacity: 0.9;
+       color: black;
+       padding: 1% 3%;
+       flex: 50%;
+       text-align: justify;
+       font-size: 1.3vw;
+       padding: 10px;
+       margin-bottom: 5%;
+       border-radius: 0;
+     }
+
+     footer{
+       color:white;
+       display: block;
+       border-top: white double 3px;
+       margin: 3%;
+       text-align: center;
+     }
+
+     .contact {
+       margin-top: 3%;
+       font-size: 1.5vw;
+       font-weight: bold;
+       margin-bottom: 2%;
+     }
+
+     .contact-info{
+       font-size: 1.2vw;
+       display: block;
+       margin-bottom: 1%;
+     }
+
+}
