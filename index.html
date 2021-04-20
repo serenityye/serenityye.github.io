@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Jiaying's Personal Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jiaying's Personal Website">
+  <meta name="keywords" content="Jiaying, linguist, translator, interpreter, frontend developer, tutor, international, chinese, norwegian">
+  <link rel="stylesheet" href="http://serenityye.github.io/css/styles.css">
+  <link rel="icon" href="http://serenityye.github.io/img/leaf.png" type="image/icon">
+</head>
+
+<body>
+
+<header>
+    <button onclick="dropdown()" class="dropbtn">Change <br>Language</button>
+  <div id="myDropdown" class="dropdown-content">
+
+    <a href="#">English</a>
+    <a href="whole-no.html">Norsk</a>
+    <a href="whole-chn.html">中文</a>
+  </div>
+  <script>
+function dropdown() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+  </script>
+
+<div class="intro-flex">
+<div id="square">
+  <img src=""http://serenityye.github.io/img/image5.png"" alt="profile photo">
+</div>
+
+<div class="introduction">
+  <h1>Hi! I’m Jiaying Ye.</h1>
+  <p>&nbsp&nbsp&nbsp&nbspI’m a linguist enthusiast, a self-taught front-end developer, an event coordinator and an experienced tutor. I was born and raised in China, attained a master’s degree in Germany and have settled down in Norway now. If I can be of assistance in anyway, don’t hesitate to contact me. </p>
+   <a href="#footer"><b>&nbsp&nbsp&nbsp&nbspCick Here For Contact Info.</b></a>
+</div>
+</div>
+
+</header>
+
+<section>
+<div class="why"><i>I'm here for you, if you need somebody who is or has...</i>
+</div>
+
+<div class=big-flex-box>
+<div class="flex-container">
+  <div class="flex-item-top">
+  <div>Polyglot</div>
+  </div>
+  <div class="flex-item-bottom">
+    <div>
+      &nbsp&nbsp&nbsp&nbspI speak Chinese (Cantonese and Mandarin), English, Norwegian and German, and I’m proficient in HTML, CSS, PHP, Javascript, PHP, SQL and Python to different degrees.
+    </div>
+    <button id="language-button" onclick="showHide()">Click here for details.</button>
+    <div id="language-progress" style="display:none;">
+      <div><label for="English">English</label>
+           <progress id="English" value="90" max="100"> 90% </progress>
+      </div>
+      <div><label for="Chinese">Mandarin</label>
+           <progress id="Chinese" value="96" max="100"> 96% </progress>
+      </div>
+      <div><label for="Chinese">Cantonese </label>
+           <progress id="Chinese" value="96" max="100"> 96% </progress>
+      </div>
+      <div><label for="Norwegian">Norwegian</label>
+           <progress id="Norwegian" value="66" max="100"> 66% </progress>
+      </div>
+      <div><label for="German">German</label>
+           <progress id="German" value="70" max="100"> 70% </progress>
+      </div>
+      <div><label for="WEB">HTML</label>
+           <progress id="WEB" value="80" max="100"> 80% </progress>
+      </div>
+      <div><label for="CSS">CSS</label>
+           <progress id="CSS" value="70" max="100"> 70% </progress>
+      </div>
+      <div><label for="Javascript">Javascript</label>
+           <progress id="Javascript" value="30" max="100"> 30% </progress>
+      </div>
+      <div><label for="PHP">PHP</label>
+           <progress id="PHP" value="25" max="100"> 25% </progress>
+      </div>
+      <div><label for="SQL">SQL</label>
+           <progress id="SQL" value="20" max="100"> 20% </progress>
+      </div>
+      <div><label for="Python">Python)</label>
+           <progress id="Python" value="10" max="100"> 10% </progress>
+      </div>
+    </div>
+</div>
+
+
+<script>
+function showHide() {
+  var x = document.getElementById("language-progress");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+
+<div class="flex-container">
+  <div class="flex-item-top">
+  <div>International Exposure</div>
+  </div>
+  <div class="flex-item-bottom">
+    &nbsp&nbsp&nbsp&nbspDo you want to know the taboo list of gifts to a Chinese? Would you like to avoid starting an uncomfortable conversation in China, or Germany? I’m your girl. I’ve had numerous cultural shocks when I first came to Europe, some funny, others embarrassing or even problematic. The diversity of cultures goes way beyond textbooks, for the details can be so trivial that only the ones that live through them can tell. With my experience and knowledge, I could guide you on the right path, saving you all the dilemmas I was once stuck in.
+    </div>
+</div>
+
+
+<div class="flex-container">
+  <div class="flex-item-top">
+  <div>Communication skills </div>
+  </div>
+  <div class="flex-item-bottom">
+    <div>
+      &nbsp&nbsp&nbsp&nbspIt’s not always easy to get through to someone, and it’s even harder when the message is delicate. When you finally make it, the response might require reading between the lines. It takes patience, empathy, quick thinking, and the ability to stay on topic. The years I worked as a tutor and a promotor have honed my skills in listening patiently, keeping track of a topic, and responding accordingly.
+    </div>
+</div>
+</div>
+
+<div class="flex-containern">
+  <div class="flex-item-top">
+  <div>Inquisitive</div>
+  </div>
+  <div class="flex-item-bottom">&nbsp&nbsp&nbsp&nbspCuriosity might kill the cat, but not me. I thrive in learning something new every day, no matter new vocabulary or details of products. The passion for investigating and comparing the features of products might have stemmed from the love of shopping, but it has helped me learn so much about fields, the leading brands, and the latest trends.
+</div>
+</div>
+
+<div class="flex-container">
+  <div class="flex-item-top">
+  <div>Planning skills </div>
+  </div>
+  <div class="flex-item-bottom">
+    <div>
+      &nbsp&nbsp&nbsp&nbspTime of the essence, and good planning is what it takes to keep the deadline. When I studied in Germany, there was always a preliminary schedule of every course; even when I wanted to have a night-out with a fellows, I’d have to get the date registered in their calendar they carried around. It might sound a bit rigid, but they always stayed on top of their progress in life. That’s when I became a firm advocator of planning ahead, but I’ve also learned that temporary adjustments could be the key to good planning. After years of practice, I’m experienced in planning.
+</div>
+</div>
+
+<div class="flex-container">
+  <div class="flex-item-top">
+  <div>Flexibility </div>
+  </div>
+  <div class="flex-item-bottom">
+    <div>
+      &nbsp&nbsp&nbsp&nbspI’m happy to work solo as well as with people. I can work at home, in office, on site, and even go on business trips. I’ll be there where and when needed.
+</div>
+</div>
+</div>
+</section>
+
+<footer id="footer">
+  <div class="contact">Contact Me
+  </div>
+  <div class="contact-info">email:serenityye93@gmail.com
+  </div>
+  <div class="contact-info">phone:+47 4125 3031 (available on whatsapp too)
+  </div>
+</footer>
+
+</body>
+</html>
