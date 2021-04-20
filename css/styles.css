@@ -62,7 +62,7 @@ header {
   margin-top: 5%;
 }
 
-#square img {
+#square a {
   display: block;
   width: 90%;
   height: auto;
@@ -256,7 +256,7 @@ header {
      margin-right: 10%;
    }
 
-   #square img {
+   #square a {
      width: 90%;
      height: 90%;
      padding:5%;
